@@ -1049,12 +1049,87 @@ margin-top: 20px;
     background: #000;
     margin-top: 30px;
     margin-bottom: 5px;
-    overflow-y: hidden;
-overflow-x: scroll;
-scroll-margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
+.footer-container .footer-childs{
+width: 300px;
+height: 200px;
+background: rgb(255, 255, 255);
+}
 
+.footer-container .footer-logo h1{
+    font-family: goddes;
+    text-align: center;
+    padding-top: 20px;
+    transition: .5s;
+}
+
+.footer-container .footer-logo h1:hover{
+  color: rgb(255, 81, 13);
+  transition: .5s;
+}
+
+.footer-container .footer-logo p{
+   font-family: serif;
+   font-size: 19px;
+   text-align: center;
+   color: #868284;
+  }
+
+  .footer-container  .footer-all-links h1 {
+   padding:5px 0;
+   margin: 0;
+   margin-top: -10px;
+   text-align: center;
+ }
+
+ .footer-container  .footer-all-links h1 a:hover {
+   color: rgb(255, 81, 13);
+   transition: .3s;
+  }
+
+  .footer-container  .footer-all-links h1 a{
+text-decoration: none;
+color: #868284;
+font-family: serif;
+font-size: 20px;
+padding-bottom: 0px;
+transition: .3s;
+  }
+
+  .footer-contact h1{
+      font-family: serif;
+      font-size: 20px;
+      text-align: center;
+      color:#868284 ;
+      padding-top: 15px;
+  }
+
+  .footer-sosial-icons p{
+   text-align: center;
+}
+
+.footer-sosial-icons p a:hover{
+    color: rgb(255, 81, 13);
+    transition: .3s;
+ }
+
+.footer-sosial-icons p:nth-child(1){
+    padding-top: 7px;
+ }
+
+  .footer-sosial-icons p a{
+      text-decoration: none;
+      color: #868284;
+      font-family: serif;
+      font-size: 20px;
+      line-height: 0px;
+  }
+/* 
 .footer-container::-webkit-scrollbar {
     width: 3em;
     height: 20px;
@@ -1074,7 +1149,7 @@ background: rgb(179, 175, 175);
   
   .footer-container::-webkit-scrollbar:vertical {
     display: none;
-  }
+  } */
 
 
 /* Footer  End*/
