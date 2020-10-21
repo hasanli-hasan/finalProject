@@ -84,6 +84,41 @@ font-weight: 500;
 
 /*SLider End */
 
+/*SearchBox Start */
+.main-searchBox-container{
+    width: 800px;
+    margin: 0 auto;
+    height: 80px;
+    background: #000;
+    margin-top: 30px;
+    margin-bottom:30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-searchBox-container input{
+width: 290px;
+height:45px;
+outline: none;
+border: none;
+}
+
+.main-searchBox-container button{
+   height: 45px;
+   width: 45px;
+}
+
+.main-searchBox-container button i{
+   font-size: 23px;
+ }
+
+.main-searchBox-container a{
+color:rgb(255, 81, 0);
+}
+/*SearchBox End */
+
 .book-tips-container{
     width: 100%;
     background: rgb(196, 195, 195);
@@ -98,7 +133,7 @@ font-weight: 500;
 .left-category-side-container{
     width: 250px;
     height: 860px;
-    background: rgb(130, 213, 224);
+    background: rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
    align-items: flex-start;
@@ -148,17 +183,16 @@ padding-top: 30px;
 
     .right-category-book-container{
         width: 180px;
-        min-height: 800px;
-        background: rgb(129, 129, 129);
+        min-height: 900px;
         display: flex;
         flex-wrap: wrap;
         overflow: hidden;
+        background: #000;
     }
     
     .right-category-book-container .bestseller-books-container{
     width: 100%;
-    min-height: 500px;
-    background: rgb(255, 255, 255);
+    min-height: 900px;
     display: flex;
     flex-wrap: wrap;
     }
@@ -231,6 +265,14 @@ color: black;
     
  /*Right category End */
  
+ .middle-body-container{
+    width: 850px;
+    height: 600px;
+    display:flex; 
+    flex-wrap: wrap;   
+    align-items: flex-start;
+    margin-top: 30px;
+ }
   /*Must Read Start */
 
 .mustRead-container{
@@ -389,3 +431,13 @@ height: 130px;
   } 
 
   /*Scroll Css End */
+
+  /* .myth-book-container{
+    width: 850px;
+    height: 400px;
+    display:flex; 
+    flex-wrap: wrap;   
+    align-items: center;
+    margin-top: 30px;
+    background: #000;
+  } */
