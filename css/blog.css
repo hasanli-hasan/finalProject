@@ -282,3 +282,210 @@ figure{
 }
 
 /* All blogs End */
+
+/* Animated Suubscrie Start */
+
+.animated-Subscribe-row{
+    width:100%;
+    height: 120px;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+.animated-Subscribe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 80px;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.animated-Subscribe input{
+    width: 230px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.animated-Subscribe button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.animated-Subscribe span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(to right, rgb(0, 0, 0),rgb(255, 255, 255));
+    animation: animate1 2.5s linear infinite;
+}
+
+@keyframes animate1{
+0%{
+    transform: translateX(-100%);
+}
+100%{
+    transform: translateX(100%);
+}
+}
+
+
+
+@keyframes animate2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+    }
+
+.animated-Subscribe span:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(to right, rgb(255, 255, 255),rgb(0, 0, 0));
+    animation: animate3 2.5s linear infinite;
+}
+@keyframes animate3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    }
+
+    .animated-Subscribe span:nth-child(2){
+        position: absolute;
+        top: 0;
+        right: 0;
+        width:3px;
+        height:100%;
+        background:linear-gradient(to right, rgb(0, 0, 0),rgb(255, 255, 255));
+        animation: animate2 2.5s linear infinite;
+        animation-delay: 1.2s;
+    }
+
+.animated-Subscribe span:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:3px;
+    height:100%;
+    background:linear-gradient(to right, rgb(255, 255, 255),rgb(0, 0, 0));
+    animation: animate4 2.5s linear infinite;
+    animation-delay: 1.2s;
+}
+
+@keyframes animate4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+    }
+
+/* Animated Subscribe End */
+
+.also-like-this h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.also-like-beer-effect-container{
+    position: relative;
+}
+
+.also-like-this-container-first{
+width: 76%;
+height: 250px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+.also-like-this-container-second{
+    width: 58%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 21.3%;
+    top: 84%;
+    }
+
+.like-this-row{
+    width: 250px;
+    height: 250px;
+    background: rgb(0, 0, 0);
+    clip-path: polygon(50% 0%, 90% 23%, 90% 69%, 51% 91%, 11.1% 69%, 11% 23%);
+    position: relative;
+}
+
+.like-this-row .like-row-face{
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.705);
+    position: absolute;
+    display: none;
+}
+
+.like-this-row .like-row-face p{
+    text-decoration: none;
+    font-size: 22px;
+    padding-top: 90px;
+    text-align: center;
+ }
+
+.like-this-row .like-row-face a{
+   text-decoration: none;
+   color: rgb(247, 247, 247);
+   border: 1px white solid;
+   padding: 4px 16px;
+}
+
+.like-this-row img{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+}
+
+.like-this-row:hover .like-row-face{
+    display: block;
+    transition: 1s;
+ }
+
+ .cash-blog-div{
+     width: 100%;
+     height: 100px;
+     margin-top: 14%;
+ }
+
+
+
+
+
+
+
+
+
+
