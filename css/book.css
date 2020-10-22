@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 4000px;
-}
-
 /*SLider Start */
 .book-bootstrap-slider{
     margin-top: 15px !important;
